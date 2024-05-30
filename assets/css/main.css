@@ -2956,6 +2956,7 @@ input, select, textarea {
 			header.major > p {
 				margin-top: 0;
 				text-align: center;
+                
 			}
 
 			header.major > .date {
@@ -4737,10 +4738,14 @@ color: #ffffff;
         h1 {
             color: #333;
         }
-       /*-- -------------------------- -->
-<---      Dark Mode Toggle      -->
-<--- -------------------------- -*/
-/* Mobile - 360px */
+
+
+
+/* 
+NAVIGATION
+*/
+
+
 @media only screen and (min-width: 0rem) {
   body.dark-mode #dark-mode-toggle .cs-sun {
     opacity: 1;
@@ -4837,7 +4842,7 @@ color: #ffffff;
     content: "";
     width: 100%;
     height: 100%;
-    background: #de38de;
+    background: transparent;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     opacity: 1;
     /* 12px - 24px */
@@ -4872,7 +4877,7 @@ color: #ffffff;
   }
   #cs-navigation .cs-logo {
     width: auto;
-    max-width: 12.5rem;
+    max-width: 10.5rem;
     height: 100%;
     margin: 0 auto 0 0;
     /* prevents padding from affecting height and width */
@@ -4928,6 +4933,7 @@ color: #ffffff;
     width: 1.5rem;
     height: auto;
     display: block;
+    filter: grayscale(1) brightness(1000%);
   }
   #cs-navigation .cs-social {
     display: none;
@@ -5155,7 +5161,7 @@ color: #ffffff;
     height: 0;
     margin: 0;
     padding: 0;
-    background-color: var(--primary);
+    background-color: transparent;
     opacity: 0;
     display: flex;
     visibility: hidden;
@@ -5201,7 +5207,9 @@ color: #ffffff;
     min-width: 12.5rem;
     margin: 0;
     padding: 0;
-    background-color: #fff;
+    background-color: transparent;
+    backdrop-filter: blur( 15px );
+    -webkit-backdrop-filter: blur( 15px );
     box-shadow: inset rgba(149, 157, 165, 0.1) 0px 8px 10px;
     opacity: 0;
     border-bottom: 5px solid var(--primary);
@@ -5375,8 +5383,8 @@ content: "";
   }
   #cs-navigation .cs-logo {
     width: 18.4%;
-    max-width: 21.875rem;
-    height: 2rem;
+    max-width: 25.875rem;
+    height: 4rem;
     /* margin-right auto pushes everything away from it to the right */
     margin: 0 auto 0 0;
     padding: 0;

@@ -295,7 +295,7 @@
     
     document.addEventListener('scroll', (e) => { 
         const scroll = document.documentElement.scrollTop;
-        if(scroll >= 750){
+        if(scroll >= 550){
     document.querySelector('body').classList.add('scroll')
         } else {
         document.querySelector('body').classList.remove('scroll')
@@ -311,7 +311,6 @@
         }
         item.addEventListener('click', onClick)
         }
-            
 
 
 
