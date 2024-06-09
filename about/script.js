@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
 //slideshow
 
 
-document.addEventListener("DOMContentLoaded", function () {
+/*document.addEventListener("DOMContentLoaded", function () {
     const img1 = document.querySelector('.img-1');
     const img2 = document.querySelector('.img-2');
     let isImg1Visible = true;
@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
             isImg1Visible = !isImg1Visible;
         }, 4000); // Adjust the interval as needed
     }, 2000); // Delay the start of the interval to show the first image immediately
-});
+});*/
 
 
 
