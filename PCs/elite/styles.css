@@ -1,22 +1,23 @@
 table {
             width: 80%;
             border-collapse: collapse;
-            margin-top: 50px;
+            margin-top: 0px;
         }
         th, td {
             padding: 15px;
             text-align: left;
             border-bottom: 1px solid #555;
+            width: 1000px;
         }
         th {
             background-color: #4CAF50;
             color: white;
         }
         tr:nth-child(even) {
-            background-color: #333;
+            background-color: #fff;
         }
         tr:nth-child(odd) {
-            background-color: #444;
+            background-color: #fff;
         }
         tr:hover {
             background-color: #555;
@@ -67,15 +68,22 @@ body {
   height: 100%;
   width: 70%; /* Restrict gallery to one side */
   display: flex;
-  gap: 10px;
+  gap: 5px;
   flex-wrap: wrap; /* Allow wrapping */
 }
 
 .container .info-section {
   width: 30%; /* Allocate remaining space for additional content */
   background: #f0f0f0;
-  padding: 2rem;
+  padding: 0.5rem;
   box-sizing: border-box;
+}
+
+#panel-info {
+  margin: auto;
+  width: 95%;
+  padding-top: 5%; 
+
 }
 
 .container .panel-container {

@@ -47,54 +47,53 @@ document.addEventListener('DOMContentLoaded', () => {
           <table id="pcTable">
     <thead>
         <tr>
-            <th>S.NO</th>
-            <th>Component name</th>
-            <th>PC component</th>
-            <th>Price range</th>
+            <th>Type</th>
+            <th>Name</th>
+            <th>Price</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td>1</td>
-            <td>PROCESSOR</td>
-            <td>i3 10105F(locked core)</td>
+            
+            <td>Processor</td>
+            <td>i3 10105F</td>
             <td>6k-8k</td>
         </tr>
         <tr>
-            <td>2</td>
-            <td>GRAPHICS CARD</td>
-            <td>GE FORCE GT 1030</td>
+            
+            <td>Graphics Card</td>
+            <td>GE Force GT 1030</td>
             <td>9k-12k</td>
         </tr>
         <tr>
-            <td>3</td>
-            <td>MOTHERBOARD</td>
+            
+            <td>Motherboard</td>
             <td>MSI Pro h510m-v</td>
             <td>6k-8k</td>
         </tr>
         <tr>
-            <td>4</td>
-            <td>RAM</td>
+            
+            <td>Ram</td>
             <td>corsair vengeance ddr4(x1)</td>
             <td>2k-3.5k</td>
         </tr>
         <tr>
-            <td>5</td>
+            
             <td>SSD</td>
-            <td>any good nvme m.2 256gb</td>
+            <td>nvme m.2 256gb</td>
             <td>1.2-2k</td>
         </tr>
         <tr>
-            <td>6</td>
-            <td>SECONDARY STORAGE(if any)</td>
+            
+            <td>Secondary Storage</td>
             <td>kingster</td>
-            <td>Rs 1550</td>
+            <td>₹1550</td>
         </tr>
         <tr>
-            <td>9</td>
-            <td>POWER SUPPLY UNIT</td>
+            
+            <td>Power Supply Unit</td>
             <td>ANTE SORTS VS 450L</td>
-            <td>Rs 3902</td>
+            <td>₹3902</td>
         </tr>
     </tbody>
 </table>
@@ -109,8 +108,8 @@ document.addEventListener('DOMContentLoaded', () => {
           <table id="pcTable">
         <thead>
             <tr>
-                <th>type</th>
-                <th>name</th>
+                <th>Type</th>
+                <th>Name</th>
                 <th>Price</th>
                 
                 
@@ -157,9 +156,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 
             </tr>
             <tr data-price="100">
-                <td>Power Suply Unit</td>
+                <td>Power Supply Unit</td>
                 <td>CSK 550</td>
-                <td>Rs 3902</td>
+                <td>₹3902</td>
                 
             </tr>
         </tbody>
@@ -173,8 +172,8 @@ document.addEventListener('DOMContentLoaded', () => {
          <table id="pcTable">
     <thead>
         <tr>
-            <th>type</th>
-            <th>name</th>
+            <th>Type</th>
+            <th>Name</th>
             <th>Price</th>
         </tr>
     </thead>
@@ -182,32 +181,32 @@ document.addEventListener('DOMContentLoaded', () => {
         <tr data-price="9500">
             <td>Processor</td>
             <td>AMD Ryzen 3 3200G</td>
-            <td>9,500</td>
+            <td>₹9,500</td>
         </tr>
         <tr data-price="10000">
             <td>Motherboard</td>
             <td>MSI B550M PRO-VDH WiFi</td>
-            <td>10,000</td>
+            <td>₹10,000</td>
         </tr>
         <tr data-price="6000">
             <td>RAM</td>
             <td>16GB (2x8GB) DDR4 3000MHz</td>
-            <td>6,000</td>
+            <td>₹6,000</td>
         </tr>
         <tr data-price="4000">
             <td>Storage</td>
             <td>512GB NVMe M.2 SSD</td>
-            <td>4,000</td>
+            <td>₹4,000</td>
         </tr>
         <tr data-price="2000">
             <td>CPU Cooler</td>
             <td>Cooler Master Hyper 212 LED</td>
-            <td>2,000</td>
+            <td>₹2,000</td>
         </tr>
         <tr data-price="3000">
             <td>Power Supply</td>
             <td>550W 80+ Bronze</td>
-            <td>3,000</td>
+            <td>₹3,000</td>
         </tr>
     </tbody>
 </table>
@@ -221,8 +220,8 @@ document.addEventListener('DOMContentLoaded', () => {
           <table id="pcTable">
         <thead>
             <tr>
-                <th>type</th>
-                <th>name</th>
+                <th>Type</th>
+                <th>Name</th>
                 <th>Price</th>
                 
                 
