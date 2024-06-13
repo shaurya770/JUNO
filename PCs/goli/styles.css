@@ -1,26 +1,44 @@
 table {
-            width: 80%;
+            width: 100%;
+            margin: auto;
             border-collapse: collapse;
             margin-top: 0px;
+            background: rgba(255, 255, 255, 0.5); /* Adjust based on your design */
+            -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
         }
         th, td {
             padding: 15px;
             text-align: left;
-            border-bottom: 1px solid #555;
-            width: 1000px;
+
+            width: auto;
         }
         th {
             background-color: #4CAF50;
             color: white;
         }
-        tr:nth-child(even) {
-            background-color: #fff;
+        tr  {
+            color: #fff;
+
+        }
+        tr:not(:last-child) {
+            border-bottom: 1px solid #555;
+        } 
+
+        /*tr:nth-child(even) {
+            
         }
         tr:nth-child(odd) {
-            background-color: #fff;
-        }
+
+        }*/
         tr:hover {
-            background-color: var(--headercolor);
+            background: rgba(255, 255, 255, 0.8); /* Adjust based on your design */
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+            background-color: rgba(255, 255, 255, 0.3);
+            
         }
         .button {
             padding: 10px 20px;
@@ -29,7 +47,7 @@ table {
             color: white;
             background-color: #ff5722;
             cursor: pointer;
-            border-radius: 5px;
+            border-radius: 10px;
             transition: background-color 0.3s;
         }
         .button:hover {
@@ -61,7 +79,7 @@ body {
   padding: 2rem;
   overflow: hidden;
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
 
 .container .gallery {
@@ -74,15 +92,15 @@ body {
 
 .container .info-section {
   width: 30%; /* Allocate remaining space for additional content */
-  background: #f0f0f0;
-  padding: 0.5rem;
+  background: transparent;
+  padding: 0;
   box-sizing: border-box;
 }
 
 #panel-info {
   margin: auto;
   width: 95%;
-  padding-top: 5%; 
+  padding-top: 0; 
 
 }
 
